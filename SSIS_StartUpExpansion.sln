@@ -5,13 +5,34 @@ VisualStudioVersion = 15.0.28307.1738
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_StartUpExpansion", "SSIS_StartUpExpansion\SSIS_StartUpExpansion.dtproj", "{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "StartUpExpansion_RPT", "StartUpExpansion_RPT\StartUpExpansion_RPT.rptproj", "{10AA3B97-5F16-48A8-9F75-DF5349096832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
 		Development|Default = Development|Default
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Debug|Default.ActiveCfg = Development
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Debug|Default.Build.0 = Development
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.DebugLocal|Default.ActiveCfg = Development
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.DebugLocal|Default.Build.0 = Development
 		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Development|Default.ActiveCfg = Development
 		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Development|Default.Build.0 = Development
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Release|Default.ActiveCfg = Development
+		{A14322F1-DB19-4B84-9FD4-4A3E5F19C651}.Release|Default.Build.0 = Development
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Debug|Default.ActiveCfg = Debug
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Debug|Default.Build.0 = Debug
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Debug|Default.Deploy.0 = Debug
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.DebugLocal|Default.Build.0 = DebugLocal
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Development|Default.ActiveCfg = DebugLocal
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Development|Default.Build.0 = DebugLocal
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Release|Default.ActiveCfg = Release
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Release|Default.Build.0 = Release
+		{10AA3B97-5F16-48A8-9F75-DF5349096832}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
